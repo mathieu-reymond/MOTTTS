@@ -1,0 +1,3 @@
+[submodule "deps/AI-Toolbox"]
+	path = deps/AI-Toolbox
+	url = https://github.com/Svalorzen/AI-Toolbox.git

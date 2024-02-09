@@ -1,0 +1,37 @@
+{
+    "folder": "./results",
+    "experiments": [
+        {
+            "name": "uniring",
+            "global_parameters" : [{
+                "experiments": 100,
+                "timesteps": 10000,
+                "agents": 6,
+                "seed": 1042
+            }],
+            "algorithms": [
+                {
+                    "name": "rnd",
+                    "configs": [{
+                        "priority": 0,
+                        "parameters": {}
+                    }]
+                },
+                {
+                    "name": "rnd2",
+                    "configs": [{
+                        "priority": 0,
+                        "parameters": {}
+                    }]
+                },
+                {
+                    "name": "lp",
+                    "configs": [{
+                        "priority": 1,
+                        "parameters": {}
+                    }]
+                }
+            ]
+        }
+    ]
+}
